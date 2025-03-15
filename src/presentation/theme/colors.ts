@@ -7,6 +7,7 @@ export const colors = {
     secondaryText: "#6B7280",
     alert: "#F59E0B",
     error: "#EF4444",
+    switch: "#FCD34D",
   },
   dark: {
     primary: "#60A5FA",
@@ -16,5 +17,6 @@ export const colors = {
     secondaryText: "#D1D5DB",
     alert: "#F97316",
     error: "#DC2626",
+    switch: "#6366F1", 
   },
 };
