@@ -53,9 +53,9 @@ export const Toggle = () => {
       <View style={[S.container, { backgroundColor: colors.switch }]}>
         <Animated.View style={animatedStyle}>
           {theme === "light" ? (
-            <Ionicons name="sunny" size={32} color="black" />
+            <Ionicons name="sunny" size={24} color="black" />
           ) : (
-            <Ionicons name="moon" size={32} color="white" />
+            <Ionicons name="moon" size={24} color="white" />
           )}
         </Animated.View>
       </View>
@@ -65,8 +65,8 @@ export const Toggle = () => {
 
 const S = StyleSheet.create({
   container: {
-    width: 48,
-    height: 48,
+    width: 40,
+    height: 40,
     borderRadius: 4,
     alignItems: "center",
     justifyContent: "center",
